@@ -12,16 +12,17 @@ const FederatedCredentials = sequelize.define('FederatedCredentials', {
     allowNull: false,
   },
   provider: {
-    type: DataTypes.TEXT,
+    type: DataTypes.STRING,
     allowNull: false,
   },
   subject: {
-    type: DataTypes.TEXT,
+    type: DataTypes.STRING,
     allowNull: false,
   },
 }, {
   uniqueKeys: {
     uniqueConstraint: {
+      unique: true,
       fields: ['provider', 'subject'],
     },
   },
