@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/main.css" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <title>Blog | Login</title>
+  </head>
+  <body>
+    <div class="bg-blue-300 border-b-2 border-b-black">
+      <div class="container mx-auto px-10">
+        <div class="flex flex-row items-center justify-between px-5 py-4">
+          <div>Logo</div>
+          <nav>
+            <ul
+              class="flex flex-row items-center justify-center gap-10 text-sm"
+            >
+              <li class="flex items-center justify-center">
+                <a href="/membership">Membership</a>
+              </li>
+              <li class="flex flex-row items-center justify-center">
+                <a href="/login">Sign In</a>
+              </li>
+              <li class="flex flex-row items-center justify-center">
+                <a href="/signup" class="custom-black-btn">Get Started</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <div class="container flex items-center justify-center">
+      <div
+        class="my-20 flex flex-col items-center justify-center gap-11 shadow-lg rounded-lg w-1/3"
+      >
+        <div
+          class="flex flex-col items-center justify-center gap-2 bg-blue-300 border-b-2 w-full py-10 rounded-t-lg"
+        >
+          <h3 class="font-bold text-3xl">Welcome Back!</h3>
+          <span>Login to continue</span>
+        </div>
+        <form action="/login" method="post" class="w-full">
+          <div
+            class="pt-3 pb-14 w-3/4 flex flex-col items-center justify-center gap-4 mx-auto"
+          >
+            <input
+              type="text"
+              name="username"
+              id="username"
+              placeholder="Username / Email"
+              class="border border-gray-300 text-gray-900 text-sm rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
+            />
+            <input
+              type="password"
+              name="passwd"
+              id="passwd"
+              placeholder="Password"
+              class="border border-gray-300 text-gray-900 text-sm rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
+            />
+
+            <button type="submit" class="text-base custom-blue-btn mt-3">
+              Login
+            </button>
+            <div>
+              <ul class="flex flex-col items-center justify-center">
+                <li>
+                  <a href="#" class="text-blue-400 text-sm underline"
+                    >Forgot Password?</a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="text-blue-400 text-sm underline"
+                    >New user? Create account</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+    <footer
+      class="container flex items-center justify-center h-20 cust-footer-bg"
+    >
+      <span class="text-sm text-gray-800">Copyright &copy; 2023</span>
+    </footer>
+  </body>
+</html>
