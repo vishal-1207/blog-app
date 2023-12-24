@@ -5,8 +5,8 @@
   "main": "app.js",
   "scripts": {
     "start": "nodemon app.js",
-    "build": "npx tailwindcss -i ./src/input.css -o ./dist/output.css",
-    "watch": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+    "build": "npx tailwindcss -i ./src/input.css -o ./public/css/main.css",
+    "watch": "npx tailwindcss -i ./src/input.css -o ./public/css/main.css --watch"
   },
   "repository": {
     "type": "git",
