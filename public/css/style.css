@@ -22,3 +22,18 @@
 .cust-footer-bg {
     background: #fff6de;
 } */
+
+form{
+    height: 20vh;
+    width: 30vw;
+}
+.form-grp{
+    display: flex;
+    flex-direction: column;
+}
+.card{
+    display: none;
+}
+.card.active{
+    display: block;
+}

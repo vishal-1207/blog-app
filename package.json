@@ -26,6 +26,7 @@
     "express-session": "^1.17.3",
     "method-override": "^3.0.0",
     "mysql2": "^3.6.5",
+    "nodemon": "^3.0.2",
     "passport": "^0.7.0",
     "passport-google-oidc": "^0.1.0",
     "passport-local": "^1.0.0",
