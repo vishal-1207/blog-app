@@ -44,6 +44,9 @@ app.get('/register', async (req, res, next) => {
     res.render('user/register');
 });
 
+app.get('/', async (req, res, next) => {
+    res.render('user/index');
+})
 
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, (err) => {
