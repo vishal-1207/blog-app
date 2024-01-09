@@ -22,3 +22,82 @@
 .cust-footer-bg {
     background: #fff6de;
 } */
+
+/* Login Page */
+.form-ct,
+.form,
+.form-hd,
+.field-ct {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.form {
+    width: 35%;
+    /* border: 1px solid #000; */
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+    border-radius: 9px;
+}
+
+.form-hd,
+.form-bd {
+    width: 100%;
+    padding: 3rem;
+}
+
+.form-hd {
+    background: #93c5fd;
+    border-top-right-radius: 9px;
+    border-top-left-radius: 9px;
+}
+
+.form-title {
+    font-size: 2.4rem;
+    margin-bottom: .6rem;
+}
+
+.form-title + span {
+    font-size: 1.2rem;
+}
+
+.field-ct {
+    gap: 1.2rem;
+}
+
+.field {
+    padding: .6rem .8rem;
+    font-size: 1rem;
+    width: 80%;
+    outline: none;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+
+.form-btn {
+    padding: .4rem 1.2rem;
+    border-radius: 5px;
+    border: 2px solid #2e91f5;
+    font-size: 1rem;
+}
+
+.form-links ul {
+    list-style: none;
+}
+
+.form-link {
+    text-align: center;
+}
+
+.form-link li {
+    margin-bottom: .2rem;
+}
+
+.form-link .link {
+    color: #2e91f5;
+    text-decoration: underline;
+}
+
+
+

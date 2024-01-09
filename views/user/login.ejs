@@ -8,20 +8,20 @@
     <title>Blog | Login</title>
   </head>
   <body>
-    <div class="">
-      <div class="">
-        <div class="">
-          <div>Logo</div>
-          <nav>
-            <ul class="">
-              <li class="">
-                <a href="/membership">Membership</a>
+    <div class="bg-blue black-border--bt">
+      <div class="row">
+        <div class="nav-ct">
+          <div class="logo">Logo</div>
+          <nav class="navbar">
+            <ul class="nav-links">
+              <li class="nav-link">
+                <a href="/membership" class="link">Membership</a>
               </li>
-              <li class="">
-                <a href="/login">Sign In</a>
+              <li class="nav-link">
+                <a href="/login" class="link">Sign In</a>
               </li>
-              <li class="">
-                <a href="/signup" class="">Get Started</a>
+              <li class="nav-link">
+                <a href="/register" class="link btn btn-black">Get Started</a>
               </li>
             </ul>
           </nav>
@@ -29,45 +29,49 @@
       </div>
     </div>
     <div class="">
-      <div class="">
-        <div class="">
-          <h3 class="">Welcome Back!</h3>
-          <span>Login to continue</span>
-        </div>
-        <form action="/login" method="post" class="">
-          <div class="">
-            <input
-              type="text"
-              name="username"
-              id="username"
-              placeholder="Username / Email"
-              class=""
-            />
-            <input
-              type="password"
-              name="passwd"
-              id="passwd"
-              placeholder="Password"
-              class=""
-            />
-
-            <button type="submit" class="">Login</button>
-            <div>
-              <ul class="">
-                <li>
-                  <a href="#" class="">Forgot Password?</a>
-                </li>
-                <li>
-                  <a href="#" class="">New user? Create account</a>
-                </li>
-              </ul>
-            </div>
+      <div class="row form-ct">
+        <div class="form my-6">
+          <div class="form-hd">
+            <h3 class="form-title">Welcome Back!</h3>
+            <span>Login to continue</span>
           </div>
-        </form>
+          <form action="/login" method="post" class="form-bd">
+            <div class="field-ct">
+              <input
+                type="text"
+                name="username"
+                id="username"
+                placeholder="Username / Email"
+                class="field"
+              />
+              <input
+                type="password"
+                name="passwd"
+                id="passwd"
+                placeholder="Password"
+                class="field"
+              />
+
+              <button type="submit" class="btn btn-blue border-8 form-btn mb-8">
+                Login
+              </button>
+              <div class="form-links">
+                <ul class="form-link">
+                  <li>
+                    <a href="#" class="link">Forgot Password?</a>
+                  </li>
+                  <li>
+                    <a href="#" class="link">New user? Create account</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </form>
+        </div>
       </div>
     </div>
-    <footer class="">
-      <span class="">Copyright &copy; 2023</span>
+    <footer class="footer">
+      <span class="ft-text">Copyright &copy; 2023</span>
     </footer>
   </body>
 </html>
