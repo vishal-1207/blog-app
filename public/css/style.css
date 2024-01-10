@@ -23,7 +23,6 @@
     background: #fff6de;
 } */
 
-<<<<<<< HEAD
 /* Login Page */
 .form-ct,
 .form,
@@ -102,19 +101,3 @@
 
 
 
-=======
-form{
-    height: 20vh;
-    width: 30vw;
-}
-.form-grp{
-    display: flex;
-    flex-direction: column;
-}
-.card{
-    display: none;
-}
-.card.active{
-    display: block;
-}
->>>>>>> e41a0a9cf601b6343bf3ff057eb690fe166065b0
