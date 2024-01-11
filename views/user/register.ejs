@@ -30,51 +30,82 @@
     </div>
     <div class="">
       <div class="row form-ct">
-        <div class="form my-6">
-          <div class="form-hd">
-            <h3 class="form-title">Welcome Back!</h3>
-            <span>Login to continue</span>
+        <div class="form my-6 col-flex form-rg">
+          <div class="form-sb">
+            <ul class="form-sb-list">
+              <li class="form-sb-item active"><span class="cir-num">1</span><span>User Info</span></li>
+              <li class="form-sb-item"><span class="cir-num">2</span><span>Address</span></li>
+              <li class="form-sb-item"><span class="cir-num">3</span><span>Payments</span></li>
+            </ul>
           </div>
-          <form class="form-bd" data-multi-step>
+          <form class="form-reg-bd" data-multi-step>
             <div class="card" data-step>
-              <p>This is page 1</p>
+              <div class="card-tp" >
+              
+               <p class="form-reg-title">Personal Info</p>
               <div class="form-grp">
-                <label>email</label>
-                <input type="email" />
+                <label class="input-lb">Email</label>
+                <input type="text"
+                name="username"
+                id="username"
+                placeholder="Username / Email"
+                class="field"/>
               </div>
               <div class="form-grp">
-                <label>password</label>
-                <input type="password" />
+                <label class="input-lb">Password</label>
+                <input type="password"
+                name="passwd"
+                id="passwd"
+                placeholder="Password"
+                class="field"/>
               </div>
-              <input type="button" value="Next" data-next />
-            </div>
+              </div>
+              <div class="card-btm">
+                <input class="btn btn-blue border-8 form-btn mb-8" type="button" value="Next" data-next />
+              </div>
+             </div>
             <div class="card" data-step>
-              <p>This is page 2</p>
+              <div class="card-tp" >
+               <p class="form-reg-title">Address Info</p>
               <div class="form-grp">
-                <label>phone number</label>
-                <input type="text" />
+                <label class="input-lb">Address Line 1</label>
+                <input type="text"
+                name="address1"
+                id="address1"
+                placeholder="Address"
+                class="field"/>
               </div>
               <div class="form-grp">
-                <label>city</label>
-                <input type="text" />
+                <label class="input-lb">Address Line 2</label>
+                <input type="text"
+                name="address2"
+                id="address2"
+                placeholder="Address"
+                class="field"/>
               </div>
-              <div class="form-grp">
-                <label>residence</label>
-                <input type="residence" />
               </div>
-              <input type="button" value="Next" data-next />
-              <input type="button" value="Previous" data-previous />
-            </div>
+              <div class="card-btm">
+                <input class="btn btn-blue border-8 form-btn mb-8" type="button" value="Previous" data-previous />
+                <input class="btn btn-blue border-8 form-btn mb-8" type="button" value="Next" data-next />
+              </div>
+             </div>
             <div class="card" data-step>
-              <p>This is page 3</p>
+              <div class="card-tp" >
+               <p class="form-reg-title">Payments</p>
               <div class="form-grp">
-                <label>Membership</label>
-                <input type="text" />
+                <label class="input-lb">Payment</label>
+                <input type="text"
+                name="payment"
+                id="payment"
+                placeholder="payment"
+                class="field"/>
               </div>
-              <input type="button" value="Next" data-next />
-              <input type="button" value="Previous" data-previous />
-              <input type="submit" value="Submit" />
-            </div>
+              </div>
+              <div class="card-btm">
+                <input class="btn btn-blue border-8 form-btn mb-8" type="button" value="Previous" data-previous />
+                <input class="btn btn-blue border-8 form-btn mb-8" type="submit" value="Submit" data-next />
+              </div>
+             </div>
           </form>
         </div>
       </div>
