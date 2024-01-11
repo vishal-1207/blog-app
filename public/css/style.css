@@ -87,15 +87,18 @@
 .form-sb-item{
     margin: 1rem;
     margin-bottom: 2rem;
+    display: flex;
 }
 .cir-num {
-    width: 50px; /* Adjust the width as needed */
-    height: 50px; /* Make sure width and height are the same */
-    border-radius: 50%; /* Use border-radius to create a circle */
+    width: 20px; /* Adjust the width as needed */
+    height: 20px; /* Make sure width and height are the same */
+    border-radius: 20px;
     border: 1px solid #000; /* Specify border-width and border-style */
-    padding: 6px;
+    display: flex;
     box-sizing: border-box; /* Include padding in total width and height */
-    margin: 1rem;
+    margin-right: 10px;
+    align-items: center;
+    justify-content: center;
     font-weight: 500;
 }
 
